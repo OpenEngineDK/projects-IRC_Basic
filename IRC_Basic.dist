@@ -1,0 +1,12 @@
+# main repository
+darcs / http://openengine.dk/code/openengine
+darcs-dev / fh.daimi.au.dk:/users/cgd/code/openengine
+
+# project repository
+# (uncomment the following two lines after uploading your project)
+darcs /projects/IRC_Basic http://openengine.dk/code/projects/IRC_Basic
+darcs-dev /projects/IRC_Basic fh.daimi.au.dk:/users/cgd/code/projects/IRC_Basic
+
+# required extensions
+# dist style
+dist /extensions/IRC/IRC.dist http://openengine.dk/code/extensions/IRC/IRC.dist
