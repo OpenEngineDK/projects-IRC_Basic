@@ -1,6 +1,6 @@
 # Project name. Should be the same as the project directory name and
 # will become the name of the binary target.
-SET( PROJECT_NAME "SkeensBox")
+SET( PROJECT_NAME "IRC")
 
 # Project source code list
 SET( PROJECT_SOURCES
@@ -19,16 +19,8 @@ TARGET_LINK_LIBRARIES(${PROJECT_NAME}
   OpenEngine_Logging
   OpenEngine_Display
   OpenEngine_Devices
-  OpenEngine_Scene
-  # Extension dependencies
-  Extensions_SDL
-  Extensions_SDLImage
-  Extensions_SetupHelpers  
-  Extensions_RBPhysics
-  Extensions_MeshUtils
-  Extensions_OpenGLSelection
-  Extensions_GenericHandlers
-  Extensions_AssimpResource
-  Extensions_BagContainer
+  # Extensions
+  Extensions_IRC
+  Extensions_Sockets
 )
 
